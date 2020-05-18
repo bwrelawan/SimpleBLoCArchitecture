@@ -15,6 +15,10 @@ BLoC + Fetch Data + OnBoarding Screen + Flavor + Customize HTTP Helper
 # Cara Jalanin Aplikasinya Gimana ?
 
 <blockquote>
+  <b> Run ini di directory path projectnya : Flutter Packages Get</b>
+</blockquote>
+
+<blockquote>
   <b>flutter run --flavor dev --target=lib/flavor/main_dev.dart</b><br>
   Ini buat jalanin aplikasi dalam mode development ( Environment API DEV)<br>
   misal Endpoint kita berawalan https://dev.bagikode.github.com/api/news/v1 , nanti kita definisikan awalan endpoint tersebut yaitu https://dev.bagikode.github.com pada file main_dev.dart<br>
